@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: linear-gradient(rgba(199, 192, 192, 0.7),rgba(206, 203, 203, 0.7)),url(background.jpg);
+    background-size: cover;
+    width: 25%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+.main h1{
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 12px 12px rgb(10, 12, 12);
+}
+.container p{
+    padding: 10px 0;
+}
+.box1{
+    position: relative;
+    overflow: hidden;
+}
+.box2{
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+}
+.box3{
+    position: relative;
+    overflow: hidden;
+    margin-top: 8%;
+}
+.btn{
+    margin-top: 15%;
+}
+#btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(20, 19, 16);
+    color: aliceblue;
+    border-radius: 5px;
+}
+#unit{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(20, 19, 16);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+#unit1{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(20, 19, 16);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+#num{
+    /* width: 150px; */
+    /* height: 40px; */
+    background-color: rgb(20, 19, 16);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ans{
+    margin-top: 3%;
+}
+#ans{
+    font-size: 18px;
+}
+

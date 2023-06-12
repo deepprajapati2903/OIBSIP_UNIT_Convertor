@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Temprature Converter</h1>
+        <div class="container">
+            <div class="box1">
+                <h2>Degree</h2>
+                <p>enter the value below :</p>
+                <input type="number" id="num">
+            </div>
+            <div class="box2">
+                <h2>Units</h2>
+                <p>From :</p>
+                <select name="unit" id="unit">
+                    <option value="kel" id="kel" selected>kelvin</option>
+                    <option value="far" id="far">faherenheit</option>
+                    <option value="cel" id="cel">celsius</option>
+                </select>
+            </div>
+            <div class="box3">
+                <h2>Units</h2>
+                <p> To :</p>
+                <select name="unit1" id="unit1">
+                    <option value="kel" id="kel" selected>kelvin</option>
+                    <option value="far" id="far">faherenheit</option>
+                    <option value="cel" id="cel">celsius</option>
+                </select>
+            </div>
+            <div class="btn">
+                <button type="submit" onclick="convert(); return false" id="btn">Convert</button>
+            </div>
+            <div class="ans">
+                <p id="ans"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
